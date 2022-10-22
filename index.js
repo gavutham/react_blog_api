@@ -7,6 +7,7 @@ const usersRoute = require("./routes/users");
 const postsRoute = require("./routes/posts");
 const categoriesRoute = require("./routes/categories");
 const cors = require("cors");
+const path = require("path");
 
 const app = express();
 
